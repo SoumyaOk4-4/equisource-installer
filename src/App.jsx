@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <div className="box">
       <div className="logo">
-        <img src="logo192.png" />
+        <img src="logo192.png" alt="EquiSource"/>
       </div>
       <a href="http://equisource.duckdns.org:7099/">Get Started</a>
       </div>
