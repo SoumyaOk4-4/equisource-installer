@@ -11,6 +11,34 @@
   font-family: "Roboto", sans-serif;
 }
 
+h1{
+  font-size: 3em;
+  color: rgb(225, 222, 222);
+}
+
+h2{
+  font-size: 1.8em;
+  color: rgb(199, 195, 195);
+  margin-top: 40px;
+}
+
+.App .policy{
+  margin-bottom: 10px;
+}
+
+.App .policy a{
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
+  }
+}
+
 .logo {
   height: 30vmin;
   pointer-events: none;
@@ -19,7 +47,9 @@
 }
 
 .logo img {
+  margin-top: 30px;
   border-radius: 20%;
+  height: 140px;
 }
 
 .box {
@@ -61,22 +91,72 @@
 }
 
 /* Responsive Design */
-@media (max-width: 768px) {
+@media (max-width: 1440px){
   .App {
-    font-size: calc(8px + 2vmin);
+    font-size: calc(10px + 2vmin);
+  }
+
+  .App a {
+    font-size: 27px;
+    padding: 0.5rem 1.15rem;
+  }
+
+  .logo {
+    height: 34vmin;
+  }
+
+  .logo img{
+    height: 160px;
+  }
+
+  .box {
+    width: 60%;
+  }
+}
+
+@media (max-width: 1024px){
+  .App {
+    font-size: calc(10px + 2vmin);
+  }
+
+  .App a {
+    font-size: 27px;
+    padding: 0.5rem 1.15rem;
   }
 
   .logo {
     height: 35vmin;
   }
 
+  .logo img{
+    height: 140px;
+  }
+
   .box {
     width: 60%;
   }
+}
+
+@media (max-width: 768px) {
+  .App {
+    font-size: calc(8px + 2vmin);
+  }
 
   .App a {
-    font-size: 1.2rem;
+    font-size: 26px;
     padding: 0.5rem 1rem;
+  }
+
+  .logo {
+    height: 40vmin;
+  }
+
+  .logo img{
+    height: 135px;
+  }
+
+  .box {
+    width: 70%;
   }
 }
 
@@ -89,12 +169,16 @@
     width: 80%;
   }
 
+  .logo img{
+    height: 120px;
+  }
+
   .logo {
     height: 45vmin;
   }
 
   .App a {
-    font-size: 1.1rem;
+    font-size: 26px;
     padding: 0.5rem 0.75rem;
   }
 }
