@@ -17,7 +17,7 @@ function App() {
       </div>
       <h2>Read our policy before getting started:</h2>
       <div className="policy">
-        <a href="#">Policy</a></div>
+        <a href="http://equisource.duckdns.org:7099/policy">Policy</a></div>
     </div>
   );
 }
