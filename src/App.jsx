@@ -2,11 +2,6 @@ import React, { useState, useEffect } from 'react';
 import './App.css';
 import Loading from 'react-loading';
 
-document.body.style.backgroundImage = "url('back.png')";
-document.body.style.backgroundSize = "cover";
-document.body.style.backgroundPosition = "center";
-document.body.style.backgroundRepeat = "no-repeat";
-
 const dyk = "Did You Know: ";
 const DYK_arr = [
   dyk + "Selling / Buying from EquiSource is better than WhatsApp! 🎧",
@@ -46,10 +41,10 @@ function App() {
         </center>
       ) : (
         <>
-          <h1>EquiSource</h1>
           <div className="box">
             <div className="logo">
               <img src="logo192.png" alt="EquiSource"/>
+              <h1>EquiSource</h1>
             </div>
             <a href="http://equisource.duckdns.org:7099/">Get Started</a>
           </div>
@@ -59,7 +54,7 @@ function App() {
           </div>
 
         <div className="footer">
-          <a href="https://forms.gle/9yVeABXfT887n1Hz8" className="highlight-link" target="_blank">Become An EquiSource Seller</a>
+          <a href="https://forms.gle/9yVeABXfT887n1Hz8" className="highlight-link">Become An EquiSource Seller</a>
           <br/>
           <div classaName="terms">
             <p>EquiSource © 2024 | All Rights Reserved</p>

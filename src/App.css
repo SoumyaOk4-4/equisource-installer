@@ -1,5 +1,9 @@
 /* App.css */
 
+body{
+  margin: 0;
+  background-image: linear-gradient(90deg, #000000, #0e1c3feb);
+}
 .App {
   text-align: center;
   min-height: 100vh;
@@ -12,7 +16,7 @@
 }
 
 h1{
-  font-size: 3em;
+  font-size: 2.5em;
   color: rgb(225, 222, 222);
 }
 
@@ -36,6 +40,7 @@ h2{
 }
 
 .box {
+  transform: translateY(20px);
   max-width: 90%;
   width: 30%;
   background-color: rgba(0, 0, 0, 0.4);
@@ -137,6 +142,10 @@ h2{
     padding: 0.5rem 1.15rem;
   }
 
+  h2{
+    font-size: 40px;
+  }
+
   .logo {
     height: 35vmin;
   }
@@ -147,6 +156,7 @@ h2{
 
   .box {
     width: 60%;
+    transform: translateY(-30px);
   }
 }
 
@@ -160,6 +170,10 @@ h2{
     padding: 0.5rem 1rem;
   }
 
+  h2{
+    font-size: 30px;
+  }
+
   .logo {
     height: 40vmin;
   }
@@ -170,6 +184,7 @@ h2{
 
   .box {
     width: 70%;
+    transform: translateY(-8px);
   }
 }
 
@@ -180,6 +195,7 @@ h2{
 
   .box {
     width: 80%;
+    transform: translateY(-12px);
   }
 
   .logo img{
@@ -193,6 +209,10 @@ h2{
   .App a {
     font-size: 26px;
     padding: 0.5rem 0.75rem;
+  }
+
+  h2{
+    font-size: 20px;
   }
 
   .footer a {
