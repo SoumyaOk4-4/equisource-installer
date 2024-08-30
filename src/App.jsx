@@ -12,6 +12,7 @@ const DYK_arr = [
   dyk + "Read Policy first then take your next steps! 📃",
   dyk + "You can find us Devs in About page! 🤓",
   dyk + "You can call us if you have any specific questions! Numbers on About page! 📞",
+  dyk + "This 4 sec loading screen is intentional to help you read these messages! ☃️",
 ];
 
 function getRandom_DYK(array) {
