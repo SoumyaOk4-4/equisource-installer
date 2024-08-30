@@ -46,7 +46,10 @@ function App() {
               <img src="logo192.png" alt="EquiSource"/>
               <h1>EquiSource</h1>
             </div>
+            <div className="start">
             <a href="http://equisource.duckdns.org:7099/">Get Started</a>
+            </div>
+           
           </div>
           <h2>Read our policy before getting started:</h2>
           <div className="policy">

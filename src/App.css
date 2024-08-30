@@ -215,6 +215,9 @@ h2{
     font-size: 20px;
   }
 
+  .start{
+    transform: translateY(8px);
+  }
   .footer a {
     font-size: 20px;
   }
