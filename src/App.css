@@ -22,23 +22,6 @@ h2{
   margin-top: 40px;
 }
 
-.App .policy{
-  margin-bottom: 10px;
-}
-
-.App .policy a{
-  animation: blink 1s infinite;
-}
-
-@keyframes blink {
-  0%, 100% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0.7;
-  }
-}
-
 .logo {
   height: 30vmin;
   pointer-events: none;
@@ -84,6 +67,36 @@ h2{
   background-color: #21a1f1;
   color: #ffffff;
   transform: scale(1.05);
+}
+
+.App .policy a{
+  animation: blink 1s infinite;
+  transform: translateY(-35px);
+}
+
+
+.footer a {
+  color: white;
+  background-color: #ff4b2b;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  animation: blink 1s infinite;
+}
+
+.footer a:hover {
+  background-color: #ff6b4b;
+}
+
+@keyframes blink {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
+  }
 }
 
 ::-webkit-scrollbar {
@@ -181,6 +194,11 @@ h2{
     font-size: 26px;
     padding: 0.5rem 0.75rem;
   }
+
+  .footer a {
+    font-size: 20px;
+  }
+
 }
 
 /*for the random facts*/

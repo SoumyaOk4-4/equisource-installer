@@ -57,7 +57,15 @@ function App() {
           <div className="policy">
             <a href="http://equisource.duckdns.org:7099/policy">Policy</a>
           </div>
-        </>
+
+        <div className="footer">
+          <a href="https://forms.gle/9yVeABXfT887n1Hz8" className="highlight-link" target="_blank">Become An EquiSource Seller</a>
+          <br/>
+          <div classaName="terms">
+            <p>EquiSource © 2024 | All Rights Reserved</p>
+          </div>
+        </div>
+      </>
       )}
     </div>
   );
