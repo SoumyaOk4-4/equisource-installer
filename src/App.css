@@ -321,3 +321,7 @@ transform: translateY(20px);
   opacity: 0; /* Make the button fully transparent */
   cursor: pointer; /* Show pointer cursor to indicate it's clickable */
 }
+
+.server-down{
+color:red;
+}
