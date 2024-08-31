@@ -69,8 +69,8 @@ function App() {
           </div>
           <h2>Read our policy before getting started:</h2>
           <div className="policy">
-            <a href="http://equisource.duckdns.org:7099/policy" className="policy-link">Policy</a>
-          </div>
+            <a href="http://equisource.duckdns.org:7099/policy">Policy</a>
+            <a href="http://equisource.duckdns.org:7099/policy">Price Chart</a>
 
           <div className="footer">
             <a href="https://forms.gle/9yVeABXfT887n1Hz8" className="highlight-link">Become An EquiSource Seller</a>
