@@ -13,6 +13,7 @@ const DYK_arr = [
   dyk + "You can find us Devs in About page! 🤓",
   dyk + "You can call us if you have any specific questions! Numbers on About page! 📞",
   dyk + "This 4 sec loading screen is intentional to help you read these messages! ☃️",
+  dyk + "You can hear a voice if you click the right place in this page. Hint- Below copyright button! 🎈"
 ];
 
 function getRandom_DYK(array) {
@@ -77,9 +78,10 @@ function App() {
             <div className="terms">
               <p>EquiSource © 2024 | All Rights Reserved</p>
             </div>
-          </div>
-          <div className="play-audio">
-            <button className="invisible-button" onClick={handlePlayAudio}></button>
+              <div className="play-audio" >
+                <button className="invisible-button" onClick={handlePlayAudio}></button>
+              </div>
+              <br />
           </div>
         </>
       )}
