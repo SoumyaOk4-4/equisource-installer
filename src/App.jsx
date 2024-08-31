@@ -13,7 +13,6 @@ const DYK_arr = [
   dyk + "You can find us Devs in About page! 🤓",
   dyk + "You can call us if you have any specific questions! Numbers on About page! 📞",
   dyk + "This 4 sec loading screen is intentional to help you read these messages! ☃️",
-  dyk + "You can hear a voice if you click the right place in this page. Hint- Below copyright section! 🎈"
 ];
 
 function getRandom_DYK(array) {
@@ -69,8 +68,8 @@ function App() {
           </div>
           <h2>Read our policy before getting started:</h2>
           <div className="policy">
-            <a href="http://equisource.duckdns.org:7099/policy">Policy</a>
-            <a href="http://equisource.duckdns.org:7099/policy">Price Chart</a>
+            <a href="http://equisource.duckdns.org:7099/policy" className="policy-link">Policy</a>
+          </div>
 
           <div className="footer">
             <a href="https://forms.gle/9yVeABXfT887n1Hz8" className="highlight-link">Become An EquiSource Seller</a>
@@ -78,9 +77,9 @@ function App() {
             <div className="terms">
               <p>EquiSource © 2024 | All Rights Reserved</p>
             </div>
-              <div className="play-audio" >
-              <button className="invisible-button" onClick={handlePlayAudio}></button>
-            </div>
+          </div>
+          <div className="play-audio">
+            <button className="invisible-button" onClick={handlePlayAudio}></button>
           </div>
         </>
       )}
