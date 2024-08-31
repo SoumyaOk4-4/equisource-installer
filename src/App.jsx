@@ -67,10 +67,10 @@ function App() {
               <a href="http://equisource.duckdns.org:7099/">Get Started</a>
             </div>
           </div>
-          <h2>Read our policy before getting started:</h2>
+          <h3>Read our policy before getting started:</h3>
           <div className="policy">
             <a href="http://equisource.duckdns.org:7099/policy" className="policy-link">Policy</a>
-            <a href="http://equisource.duckdns.org:7099/v1/price" className="policy-link">Price Chart</a>
+            <a href="http://equisource.duckdns.org:7099/v1/price" className="policy-link">Pricing</a>
           </div>
 
           <div className="footer">
