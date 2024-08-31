@@ -323,5 +323,8 @@ transform: translateY(20px);
 }
 
 .server-down{
-color:red;
+color: red;
+border: solid 1px red;
+padding: 7px;
+border-radius: 10%;
 }
