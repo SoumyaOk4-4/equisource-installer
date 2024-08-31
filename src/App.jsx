@@ -78,8 +78,8 @@ function App() {
               <p>EquiSource © 2024 | All Rights Reserved</p>
             </div>
           </div>
-          <div className="play-audio">
-            <button className="invisible-button" onClick={handlePlayAudio}></button>
+          <div className="play-audio" >
+            <button onClick={handlePlayAudio}></button>
           </div>
         </>
       )}
