@@ -40,7 +40,7 @@ h2{
 }
 
 .box {
-  transform: translateY(20px);
+  transform: translateY(10px);
   max-width: 90%;
   width: 30%;
   background-color: rgba(0, 0, 0, 0.4);
