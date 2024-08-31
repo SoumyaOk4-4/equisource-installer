@@ -311,3 +311,13 @@ transform: translateY(20px);
 .did-you-know{
   color: white;
 }
+
+.invisible-button {
+  position: absolute; /* Remove it from the normal flow */
+  width: 0; /* Set width and height to 0 */
+  height: 0;
+  border: none; /* Remove any default border */
+  background: transparent; /* Make background transparent */
+  opacity: 0; /* Make the button fully transparent */
+  cursor: pointer; /* Show pointer cursor to indicate it's clickable */
+}
