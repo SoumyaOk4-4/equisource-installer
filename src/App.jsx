@@ -74,7 +74,7 @@ function App() {
           </div>
 <div className="server-down"></div>
           <div className="footer">
-            <a href="https://forms.gle/9yVeABXfT887n1Hz8" className="highlight-link">Become An EquiSource Seller</a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeQkHp1vUUvvftP3RlbnhJcCyc02LdP6tppxrBTodzfezSPEQ/viewform?usp=sf_link" className="highlight-link">Become An EquiSource Seller</a>
             <br/>
             <div className="terms">
               <p>EquiSource © 2024 | All Rights Reserved</p>
